@@ -25,8 +25,6 @@ int main() {
 
         if (integerAsInt < 0) {
             std::cout << "\nPlease enter a positive number." << std::endl;
-        } else if (integerAsInt == 0) {
-            std::cout << "\nInvalid input" << std::endl;
         } else {
             for (int counter = 0; counter <= integerAsInt; counter++) {
                 squaredAnswer = counter * counter;
