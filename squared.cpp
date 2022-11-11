@@ -30,7 +30,7 @@ int main() {
         } else {
             for (int counter = 0; counter <= integerAsInt; counter++) {
                 squaredAnswer = counter * counter;
-                std::cout << counter << "² = " 
+                std::cout << counter << "² = "
                     << squaredAnswer << "²" << std::endl;
             }
         }
