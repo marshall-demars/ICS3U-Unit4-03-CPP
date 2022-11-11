@@ -24,9 +24,9 @@ int main() {
         integerAsInt = std::stoi(integerAsString);
 
         if (integerAsInt < 0) {
-            std::cout << "Please enter a positive number." << std::endl;
+            std::cout << "\nPlease enter a positive number." << std::endl;
         } else if (integerAsInt == 0) {
-            std::cout << "Invalid input" << std::endl;
+            std::cout << "\nInvalid input" << std::endl;
         } else {
             for (int counter = 0; counter <= integerAsInt; counter++) {
                 squaredAnswer = counter * counter;
@@ -35,7 +35,7 @@ int main() {
             }
         }
         } catch (std::invalid_argument) {
-            std::cout << "Please input a valid number." << std::endl;
+            std::cout << "\nPlease input a valid number." << std::endl;
         }
 
     std::cout << ("\nDone.") << std::endl;
